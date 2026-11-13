@@ -1,9 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 100px;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.card {
+  margin-top: 60px;
+  padding: 32px 40px;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    color: blue;
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.status {
+  color: #666;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
 }
